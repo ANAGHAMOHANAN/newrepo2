@@ -22,3 +22,7 @@ jobs:
 
       - name: List artifacts
         run: ls -lh target/
+
+      
+      - name: testing
+        run: mvn test
